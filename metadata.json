@@ -1,0 +1,6 @@
+{
+  "name": "ElectroSim - Simulador Arduino & ESP32",
+  "description": "Simulador interactivo y realista de circuitos electrónicos Arduino y ESP32 con editor de código C++, cableado táctil, actuadores y consola de lecturas de sensores en tiempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
