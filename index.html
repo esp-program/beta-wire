@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ElectroSim 3D - Simulador de Circuitos & Editor de Código</title>
-  <meta name="description" content="Simulador de circuitos 3D con mesa de taller limpia, editor de código integrado estilo VS Code y monitor serie en tiempo real.">
+  <title>ElectroSim - Simulador Arduino & ESP32</title>
+  <meta name="description" content="Simulador interactivo y realista de circuitos electrónicos Arduino y ESP32 con editor de código C++, cableado táctil, actuadores y consola de lecturas de sensores en tiempo real.">
+  <meta property="og:title" content="ElectroSim - Simulador Arduino & ESP32">
+  <meta property="og:description" content="Simulador interactivo y realista de circuitos electrónicos Arduino y ESP32 con editor de código C++, cableado táctil, actuadores y consola de lecturas de sensores en tiempo real.">
   
   <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2747,17 +2749,6 @@ void loop() {
           group,
           data: { ...itemData, name: compDisplayName },
           ledColorDef,
-          modeloArduino,
-          ardLedMesh,
-          ardLedLight,
-          ardPwrMesh,
-          ardPwrLight,
-          ledMesh,
-          ledLight,
-          servoHorn,
-          isBurned: false,
-          pins: []
-        };
           modeloArduino,
           ardLedMesh,
           ardLedLight,
